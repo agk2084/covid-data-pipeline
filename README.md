@@ -23,12 +23,21 @@ Criar um pipeline ETL para extração, transformação e análise de dados públ
 - notebooks/: análises exploratórias
 
 covid-data-pipeline/
+
 │
+
 ├── data/
+
 │   ├── raw/
+
 │   └── processed/
+
 │
+
 ├── scripts/
+
 ├── sql/
+
 ├── dashboard/
+
 ├── notebooks/
