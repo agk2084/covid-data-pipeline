@@ -21,3 +21,14 @@ Criar um pipeline ETL para extração, transformação e análise de dados públ
 - sql/: consultas SQL
 - dashboard/: dashboards Power BI
 - notebooks/: análises exploratórias
+
+covid-data-pipeline/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── scripts/
+├── sql/
+├── dashboard/
+├── notebooks/
