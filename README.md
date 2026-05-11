@@ -39,15 +39,41 @@ Consultas SQL
 Dashboard/Análises
 
 ## Etapas
-# Entendendo o que é ETL
 
-- O que é ETL
-- Diferença entre ETL e ELT
-- Pipeline de dados
-- Data Engineering básico
+| Etapa                       | Objetivo                              | O que pesquisar                                                           | Resultado esperado                    |
+| --------------------------- | ------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------- |
+| 1. Entender ETL             | Compreender o fluxo de dados          | ETL, ELT, pipeline de dados, engenharia de dados                          | Entender Extract → Transform → Load   |
+| 2. Git e GitHub             | Organizar o projeto profissionalmente | `git init`, `git add`, `git commit`, `git push`, README, `.gitignore`     | Criar e manter repositório organizado |
+| 3. Ambiente Python          | Preparar ambiente de desenvolvimento  | `venv`, `pip`, `requirements.txt`                                         | Ambiente virtual funcionando          |
+| 4. Extração de Dados        | Coletar dados reais                   | `pandas.read_csv`, APIs, `requests`                                       | Baixar e abrir datasets               |
+| 5. Análise Exploratória     | Entender os dados                     | `isnull()`, `describe()`, `duplicated()`                                  | Identificar problemas nos dados       |
+| 6. Limpeza e Transformação  | Tratar os dados                       | SQL (`SELECT`, `WHERE`, `GROUP BY`, `CASE`) e Pandas (`dropna`, `fillna`) | Dados limpos e padronizados           |
+| 7. Banco de Dados           | Armazenar dados corretamente          | PostgreSQL, pgAdmin, `CREATE TABLE`, `INSERT`                             | Banco configurado                     |
+| 8. Load                     | Enviar dados para o banco             | SQLAlchemy, `to_sql()`                                                    | Pipeline ETL funcionando              |
+| 9. Consultas Analíticas     | Gerar insights                        | CTEs, Window Functions, agregações                                        | Consultas e análises SQL              |
+| 10. Dashboard               | Visualizar dados                      | Power BI, KPIs, gráficos                                                  | Dashboard conectado ao banco          |
+| 11. Melhorias Profissionais | Evoluir o projeto                     | Docker, Airflow, logs, testes, GitHub Actions                             | Projeto mais próximo do mercado       |
 
-| Conceito  | Explicação      |
-| --------- | --------------- |
-| Extract   | pegar dados     |
-| Transform | limpar/tratar   |
-| Load      | salvar no banco |
+## Ordem de aprendizado
+
+1. Git/GitHub
+2. Python básico
+3. Pandas
+4. SQL
+5. PostgreSQL
+6. ETL
+7. Dashboard
+8. Docker/Airflow
+
+## Estrutura do projeto
+
+covid-data-pipeline/
+│
+├── data/
+├── notebooks/
+├── sql/
+├── src/
+├── tests/
+├── README.md
+├── requirements.txt
+└── .gitignore
