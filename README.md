@@ -1,4 +1,4 @@
-# CoVID Data Pipeline
+# COVID Data Pipeline
 
 Projeto de análise de dados da COVID-19 utilizando Python, SQL e Power BI.
 
