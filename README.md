@@ -46,6 +46,7 @@ Criar um pipeline ETL para extração, transformação e análise de dados públ
 
 ## Etapas do projeto
 
+```text
 Fonte de Dados
       ↓
 Extract (Python)
@@ -59,6 +60,7 @@ Banco de Dados
 Consultas SQL
       ↓
 Dashboard/Análises
+```
 
 ## Etapas
 
