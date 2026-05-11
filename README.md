@@ -67,9 +67,8 @@ Dashboard/Análises
 
 ## Estrutura do projeto
 
-src/
-|── extract.py
-|
-|── transform.py
-|── load.py
-└── pipeline.py
+#### src/
+#### |── extract.py
+#### |── transform.py
+#### |── load.py
+#### └── pipeline.py
