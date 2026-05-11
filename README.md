@@ -1,7 +1,10 @@
-# COVID Data Pipeline
+# CoVID Data Pipeline
 
 Projeto de análise de dados da COVID-19 utilizando Python, SQL e Power BI.
 
+## Estrutura do Projeto
+
+```text
 covid-data-pipeline/
 ├── data/
 │   ├── final/
@@ -19,6 +22,7 @@ covid-data-pipeline/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
+```
 
 ## Objetivo
 
