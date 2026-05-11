@@ -24,6 +24,61 @@ covid-data-pipeline/
 └── requirements.txt
 ```
 
+## Explicação das Pastas e Arquivos
+
+### `data/`
+Armazena os dados utilizados no pipeline.
+
+- `raw/` → dados brutos, sem tratamento.
+- `processed/` → dados parcialmente limpos e transformados.
+- `final/` → dados finais prontos para análise e dashboards.
+
+---
+
+### `sql/`
+Contém os scripts SQL utilizados no projeto.
+
+- `create_tables.sql` → criação das tabelas no banco de dados.
+- `queries.sql` → consultas analíticas e exploração de dados.
+- `transformations.sql` → limpeza e transformação de dados utilizando SQL.
+
+---
+
+### `src/`
+Contém os scripts principais em Python.
+
+- `extract.py` → extração/coleta dos dados.
+- `transform.py` → limpeza e transformação dos dados.
+- `load.py` → carregamento dos dados no banco SQL.
+- `pipeline.py` → execução completa do pipeline ETL.
+
+---
+
+### `.gitignore`
+Define arquivos e pastas que não devem ser enviados ao GitHub.
+
+Exemplo:
+- ambiente virtual (`venv/`)
+- cache do Python
+- arquivos temporários
+
+---
+
+### `README.md`
+Documentação principal do projeto.
+
+Contém:
+- descrição,
+- tecnologias utilizadas,
+- estrutura do projeto,
+- instruções de execução.
+
+---
+
+### `requirements.txt`
+Lista de bibliotecas Python necessárias para executar o projeto.
+```
+
 ## Objetivo
 
 Criar um pipeline ETL para extração, transformação e análise de dados públicos da COVID-19.
