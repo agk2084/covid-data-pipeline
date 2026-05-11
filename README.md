@@ -64,3 +64,12 @@ Dashboard/Análises
 6. ETL
 7. Dashboard
 8. Docker/Airflow
+
+## Estrutura do projeto
+
+src/
+|── extract.py
+|
+|── transform.py
+|── load.py
+└── pipeline.py
