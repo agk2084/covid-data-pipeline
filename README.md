@@ -21,3 +21,33 @@ Criar um pipeline ETL para extração, transformação e análise de dados públ
 - sql/: consultas SQL
 - dashboard/: dashboards Power BI
 - notebooks/: análises exploratórias
+
+## Etapas do projeto
+
+Fonte de Dados
+      ↓
+Extract (Python)
+      ↓
+Raw Data
+      ↓
+Transform (SQL/Pandas)
+      ↓
+Banco de Dados
+      ↓
+Consultas SQL
+      ↓
+Dashboard/Análises
+
+## Etapas
+# Entendendo o que é ETL
+
+- O que é ETL
+- Diferença entre ETL e ELT
+- Pipeline de dados
+- Data Engineering básico
+
+| Conceito  | Explicação      |
+| --------- | --------------- |
+| Extract   | pegar dados     |
+| Transform | limpar/tratar   |
+| Load      | salvar no banco |
