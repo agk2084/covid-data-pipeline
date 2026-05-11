@@ -64,16 +64,3 @@ Dashboard/Análises
 6. ETL
 7. Dashboard
 8. Docker/Airflow
-
-## Estrutura do projeto
-
- covid-data-pipeline/ 
- │
- ├── data/ 
- ├── notebooks/ 
- ├── sql/ 
- ├── src/
- ├── tests/
- ├── README.md
- ├── requirements.txt
- └── .gitignore
