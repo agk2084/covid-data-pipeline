@@ -67,13 +67,13 @@ Dashboard/Análises
 
 ## Estrutura do projeto
 
-covid-data-pipeline/
-│
-├── data/
-├── notebooks/
-├── sql/
-├── src/
-├── tests/
-├── README.md
-├── requirements.txt
-└── .gitignore
+ covid-data-pipeline/ 
+ │
+ ├── data/ 
+ ├── notebooks/ 
+ ├── sql/ 
+ ├── src/
+ ├── tests/
+ ├── README.md
+ ├── requirements.txt
+ └── .gitignore
