@@ -2,6 +2,24 @@
 
 Projeto de análise de dados da COVID-19 utilizando Python, SQL e Power BI.
 
+covid-data-pipeline/
+├── data/
+│   ├── final/
+│   ├── processed/
+│   └── raw/
+├── sql/
+│   ├── create_tables.sql
+│   ├── queries.sql
+│   └── transformations.sql
+├── src/
+│   ├── extract.py
+│   ├── load.py
+│   ├── pipeline.py
+│   └── transform.py
+├── .gitignore
+├── README.md
+└── requirements.txt
+
 ## Objetivo
 
 Criar um pipeline ETL para extração, transformação e análise de dados públicos da COVID-19.
